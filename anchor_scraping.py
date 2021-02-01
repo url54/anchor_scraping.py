@@ -32,7 +32,6 @@ while ctr < 7:
     sn = list()
     for tag in tags[17:18]:
         sn = tag.get('href', None)
-        nurl = sn
-        url = nurl
+        url = sn
         ctr = ctr + 1
-        print(nurl)
+        print(url)
